@@ -7,7 +7,7 @@ import { Bug } from '../pages/admin/bugdetails/bugdetails.component';
 })
 export class BugService {
 
-  public url = 'http://localhost:8080/';
+  public url = 'http://localhost:9090/';
   
   
   constructor(private _http: HttpClient) { }

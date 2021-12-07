@@ -9,7 +9,7 @@ export class UserService {
 
   constructor(private http:HttpClient) { }
 
-  public url = 'http://localhost:8080/';
+  public url = 'http://localhost:9090/';
 
   public addUser(user:any)
   {

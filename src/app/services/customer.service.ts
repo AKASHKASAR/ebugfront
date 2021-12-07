@@ -8,7 +8,7 @@ export class CustomerService {
 
   constructor(private http:HttpClient) { }
 
-  public url = 'http://localhost:8080/';
+  public url = 'http://localhost:9090/';
 
   public addTicket(ticket:any)
   {
