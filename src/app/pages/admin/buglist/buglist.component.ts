@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BugService } from 'src/app/services/bug.service';
 
-
 export class Bug {
   constructor(
     public bugid: number,

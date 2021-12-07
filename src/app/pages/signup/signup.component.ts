@@ -20,6 +20,8 @@ export class SignupComponent implements OnInit {
     fname: '',
     lname: '',
     emailid: '',
+    username:'',
+    password:''
   };
 
   ngOnInit(): void {

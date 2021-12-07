@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
 
   loginData={
     username:'',
-    password:'',
+    password:''
   }
 
   constructor(private snack:MatSnackBar,private login:LoginService,private router:Router) { }

@@ -16,6 +16,7 @@ import { BuglistComponent } from './pages/admin/buglist/buglist.component';
 import { AddstaffComponent } from './pages/admin/addstaff/addstaff.component';
 import { AssignbugsComponent } from './pages/admin/assignbugs/assignbugs.component';
 import { SendmsgComponent } from './pages/admin/sendmsg/sendmsg.component';
+import { NewbuglistComponent } from './pages/admin/newbuglist/newbuglist.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -33,6 +34,7 @@ const routes: Routes = [
    },
    {    path: 'bugdetails',    component: BugdetailsComponent,    pathMatch: 'full',  },
    {    path: 'buglist',    component: BuglistComponent,    pathMatch: 'full',  },
+   {    path: 'newbuglist',    component: NewbuglistComponent,    pathMatch: 'full',  },
    {    path: 'addstaff',    component: AddstaffComponent,    pathMatch: 'full',  },
    
    {    path: 'assignbugs',    component: AssignbugsComponent,    pathMatch: 'full',  },

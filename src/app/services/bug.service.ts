@@ -19,4 +19,8 @@ export class BugService {
   retriveBug1(){
     return this._http.get<Bug[]>(this.url+'admin/bugList');
   }
+
+  retriveBug2(){
+    return this._http.get<Bug[]>(this.url+'admin/newBugList');
+  }
 }
